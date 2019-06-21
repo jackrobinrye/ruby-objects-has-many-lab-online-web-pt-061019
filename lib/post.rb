@@ -16,6 +16,7 @@ class Post
   end
   
   def author_name 
+    if self.au
     self.author.name
   end 
   
